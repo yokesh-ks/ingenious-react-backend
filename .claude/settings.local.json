@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(xargs ls:*)",
-      "Bash(find d:yokesh-ksingenious-react-backend -not -path */node_modules/* -type f -o -type d)"
+      "Bash(find d:yokesh-ksingenious-react-backend -not -path */node_modules/* -type f -o -type d)",
+      "Bash(npm test:*)",
+      "Bash(node -e \"console.log\\(require\\(''crypto''\\).randomBytes\\(64\\).toString\\(''hex''\\)\\)\")"
     ]
   }
 }
