@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls:*)",
+      "Bash(find d:yokesh-ksingenious-react-backend -not -path */node_modules/* -type f -o -type d)"
+    ]
+  }
+}
